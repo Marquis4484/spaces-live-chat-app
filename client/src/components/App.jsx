@@ -10,7 +10,9 @@ import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { RoomContext } from "../context/RoomContext";
 
-const socket = io.connect("http://localhost:5000"); // connecting backend with the frontend
+const socket = io.connect(
+   "https://spaces-live-chat-app-9fd41b67a6cb.herokuapp.com/"
+); // connecting backend with the frontend
 
 const App = () => {
    const [room, setRoom] = useState(""); // state created to hold room information

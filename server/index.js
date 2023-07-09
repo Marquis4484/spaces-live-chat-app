@@ -2,7 +2,7 @@ const express = require("express"); // line of code to use Express.js to create 
 const app = express();
 const http = require("http").Server(app); //allows data to be transfered between the client and server
 const cors = require("cors");
-const PORT = 5000 || process.env.PORT;
+const PORT = process.env.PORT || 5000;
 
 app.use(cors()); //allows data to be transfered between the client and server domains
 

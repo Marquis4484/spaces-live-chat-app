@@ -6,7 +6,7 @@
 
 ## A Live Messaging Chat Application Made Possible with WebSockets
 
-A real-time messaging application that utilizes WebSockets in order to allow for bi-directional communication between members within user generated chat rooms. Users will be asked to either log-in or to create an account before using the application. After the right credentials are inputted and verified through Firebase, the user will be asked to input a room name. If two users input the same room name, users who are inside that same room will be able to converse with each other. Socket.io and Node.js is what powers the backend by emitting events that allows each user connected to the server to communicate with each other.
+A real-time messaging application that utilizes WebSockets in order to allow for bi-directional communication between members within user generated chat rooms. Users will be asked to either log-in or to create an account before using the application. After the right credentials are inputted and verified through Firebase, the user will be asked to input a room name. If two users input the same room name, users who are inside that same room will be able to converse with each other. Socket.io and Node.js is what powers the backend by emitting events that allows each user connected to the server to communicate with each other. Also, the backend of this project is hosted on Heroku. 
 
 ## Purpose of this Project 
 
